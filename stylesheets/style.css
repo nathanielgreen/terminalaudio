@@ -15,7 +15,6 @@ body {
   color: #222;
   align-items: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   margin: 0;
 }
@@ -25,31 +24,22 @@ a {
   text-decoration: none;
 }
 
-#logo-div {
-  flex: 1;
+
+#home {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
+  opacity: 1;
+  transition: 0.7s;
+  flex-direction: column;
+  visiblity: visible;
+  z-index: 10;
 }
   #logo {
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     width: 200px;
   }
-
-#home {
-  display: flex;
-  opacity: 1;
-  transition: 0.7s;
-  flex: 1.5;
-  flex-direction: column;
-  visiblity: visible;
-  z-index: 10;
-}
   #home-top {
     display: flex;
     flex-direction: row;

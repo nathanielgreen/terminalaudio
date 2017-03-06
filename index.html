@@ -18,21 +18,18 @@
 
 </head>
 <body>
-  <div id="logo-div">
-    <img id="logo" src="images/terminalaudiologo.png" />
-  </div>
 
   <div id="home">
     <div id="home-top">
       <div id="home-left">
-        <h1>Terminal</h1>
-        <h1>Audio</h1>
+        <img id="logo" src="images/terminalaudiologo.png" />
       </div>
       <div id="home-right">
         <ul>
           <li class="button" id="button-about"><a>about</a></li>
           <li class="button" id="button-sounds"><a 
             href="https://soundcloud.com/hyrez-terminal">sounds</a></li>
+          <li class="button" id="button-mailing"><a>mailing list</a></li>
           <li class="button" id="button-contact"><a>contact</a></li>
         </ul>
       </div>
@@ -50,6 +47,19 @@
     <a href="mailto:info@terminalaudio.co.uk">info@terminalaudio.co.uk</a>
     <a class="button-home">&lt;--- Back to Contents</a>
   </div>
+
+	<div id="mailing" class="section">
+		<h1>Mailing List</h1>
+		<p>Sign up to our mailing list to get the latest news about our upcoming
+		events and access to our Guest List.</p>
+		<form action="mailto:info@terminalaudio.co.uk?Subject=Mailing List Signup" method="post" enctype="text/plain">
+			<label for="email">Email:</label>
+			<input type="text" name="email" placeholder="e.g. you@gmail.com"></input>
+			<br></br>
+			<button type="submit" value="Send">Sign Up</button>
+		</form>
+		<a class="button-home">&lt;--- Back to Contents</a>
+	</div>
 
   <script src="scripts/sectionHandler.js"></script>
 </body>

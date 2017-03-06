@@ -7,7 +7,7 @@ newTrunc = function(id) {
 switchSection = function(section, id) {
 
   // set Variables
-  var sectionArr = ["home", "about", "contact"];
+  var sectionArr = ["home", "about", "mailing", "contact"];
   var index = sectionArr.indexOf(section);
   
   // Remove Clicked Section From Array
