@@ -1,6 +1,6 @@
 # Terminal Audio
 
-A website built for the music label 'Terminal Audio'. It's purpose is to provide
+A website built for the London based record label 'Terminal Audio'. It's purpose is to provide
 links to Terminal Audio's music as well as information about the label and how
 to contact them.
 
